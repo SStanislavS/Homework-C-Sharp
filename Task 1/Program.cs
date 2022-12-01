@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите первое число: ");
+﻿// Программа на входе принимает два числа и выдает max
+Console.WriteLine("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число: ");
@@ -6,9 +7,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("max= " +a);
+    Console.WriteLine("max = " +a);
 }
 else 
 {
-    Console.WriteLine("max= " +b);
+    Console.WriteLine("max = " +b);
 }
